@@ -1,0 +1,31 @@
+.DS_Store
+node_modules
+/dist
+excelFiles
+uploadFiles
+/server/blogs
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+yuyu_mongod_backup
+
+# Editor directories and files
+.idea/*
+*.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.xml
+.idea/vcs.xml
+/.idea
+

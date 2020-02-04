@@ -1,0 +1,281 @@
+body {
+  background: white;
+  min-width: 1024px;
+}
+
+a.highlight {
+  color: #2d8cf0;
+  cursor: pointer;
+}
+
+// 常用的一些配置 如：margin-top,margin-bottom,margin-left这些
+.width60 {
+  width: 60%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width500 {
+  width: 500px;
+}
+
+.block {
+  display: block;
+}
+
+.hidden, .none {
+  display: none !important;
+}
+
+.bg-none {
+  background: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.tc {
+  text-align: center;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.mc {
+  margin: auto;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb12 {
+  margin-bottom: 12px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.mr25 {
+  margin-right: 25px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $border-color
+}
+
+.border-radius-none {
+  border-radius: 0;
+}
+
+.border-radius-right {
+  border-radius: 0 4px 4px 0;
+}
+
+.border-radius-left {
+  border-radius: 4px 0 0 4px;
+}
+
+// 主容器样式
+.container {
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  background: white;
+}
+
+// 增加nav的样式
+.el-menu.el-menu--horizontal {
+  border-bottom: none;
+  display: flex;
+  .el-menu-item.is-active {
+    color: $main-color;
+    border-bottom: 2px solid $main-color;
+    height: 100%;
+  }
+}
+
+// 重置表格头部的字体样式
+.el-table thead {
+  color: #3a3b3d;
+  font-weight: 500;
+}
+
+.el-table th {
+  background: $table-bg-color;
+}
+
+// 重置card的样式
+.el-card__body {
+  padding: 10px;
+}
+
+// 重置tags的样式
+
+._blue-header .el-tabs__nav-scroll {
+  background: $main-color;
+}
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item {
+  background: $main-color;
+  color: white;
+}
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+  color: white;
+}
+
+._blue-header .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active, .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active:hover {
+  background: white;
+  color: $main-font-color;
+}
+
+// 重置dialog表头,脚部的样式
+.el-dialog__header, .el-dialog__footer {
+  line-height: 1px;
+}
+
+h3 {
+  line-height: 38px;
+  font-size: 14px;
+  text-align: left;
+  // border-bottom: 1px dashed $border-color;
+  font-weight: bold;
+  position: relative;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// 全局模糊搜索
+.filter-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .el-input {
+    margin-right: 20px;
+  }
+}
+
+// 重置高德地图样式
+.amap-sug-result {
+  bottom: 0;
+}
+
+// 重置tabs样式
+.el-dialog__body {
+  padding: 10px 20px;
+}
+
+//li {
+//list-style: none;
+//}
+
+.right-view .echarts {
+  width: 100%;
+  height: 100%;
+}
+
+.el-form-item__content {
+  //width: 45%;
+  //min-width: 360px;
+  //max-width: 400px;
+}
+
+.el-main {
+  //padding: 0 !important;
+  background-color: white;
+  color: #333;
+  text-align: left;
+}
+
+.el-header {
+  background: white;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 8px #f0f1f2;
+}
+
+.el-container, .el-container.is-vertical {
+  min-height: 100% !important;
+}
+
+.el-header, .el-footer {
+  padding: 0px;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-aside {
+  background: white;
+  color: #333;
+  text-align: center;
+}
+
+

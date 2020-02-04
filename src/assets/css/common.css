@@ -1,0 +1,14 @@
+.border-bottom {
+    border-bottom: 1px solid #dddee1
+}
+
+.el-aside {
+    min-width: 56px;
+    max-width: 200px;
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+}
+
+
+
